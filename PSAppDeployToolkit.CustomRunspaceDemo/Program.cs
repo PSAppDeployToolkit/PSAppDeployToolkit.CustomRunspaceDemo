@@ -17,7 +17,7 @@ namespace PSAppDeployToolkit.CustomRunspaceDemo
         {
             // Set up the initial session state for the new runspace.
             WriteLogEntry("Setting up the initial session state for the new runspace.");
-            var iss = InitialSessionState.CreateDefault();
+            var iss = InitialSessionState.CreateDefault2();
 
             // Import the PSAppDeployToolkit module into the initial session state.
             WriteLogEntry("Importing the PSAppDeployToolkit module into the initial session state.");
